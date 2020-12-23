@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tamashisapp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki01"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/gilaki02"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki03"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/gilaki12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki21"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/gilaki22"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gilaki23"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="50sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/reset_gilaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="Restart"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
